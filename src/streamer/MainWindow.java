@@ -108,7 +108,7 @@ public class MainWindow extends javax.swing.JFrame {
 		lblEstado = new JLabel("Estado");
 		lblEstadoActual = new JLabel("");
 		
-		JButton btnPreview = new JButton("Preview");
+		JButton btnPreview = new JButton("Detener");
 		btnPreview.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				String comando = PropReader.getReader().getKey("preview_template");
